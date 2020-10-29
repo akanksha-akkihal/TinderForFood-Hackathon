@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body{
   margin:30px;
@@ -65,6 +66,16 @@ footer{
 }
 
 /*form styles*/
+form{
+  font-family: 'Oswald', sans-serif;
+}
 .food-pref input{
   margin: 10px;
+}
+
+.food-pref button{
+  background: crimson;
+  color:white;
+  padding:6px;
+  border:0;
 }
