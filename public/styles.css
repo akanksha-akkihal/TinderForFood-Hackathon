@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+body{
+  margin:30px;
+  padding:20px;
+}
+p,h1{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+h1{
+  font-family: 'Kaushan Script', cursive;
+  color:crimson;
+  font-size: 3em;
+}
+
+nav p{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1em;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul{
+  display:flex;
+  justify-content: space-between;    align-items:flex-end;
+}
+nav li{
+  list-style-type:none;
+  margin-left:20px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+  padding: 30px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+}
+ img{
+   height: 300px;
+   width: 350px;
+   border-radius:20px ;
+ }
+footer{
+  position: relative;
+  height:200px;
+  margin-top: 50px;
+  text-align: center;
+  font-family:'Syne Mono', monospace;
+}
+
+/*form styles*/
+.food-pref input{
+  margin: 10px;
+}

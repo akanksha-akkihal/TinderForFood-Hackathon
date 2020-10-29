@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head.ejs')%>
+</head>
+<body>
+  <%- include('../partials/res-nav.ejs')%>
+  <div>
+    <h2>Welcome</h2>
+  </div>
+
+  <div class="food-pref">
+    <form action=" " method="POST">
+      <label for="foodtype">Select your preference:</label><br>
+      <input type="checkbox" id="veg" name="veg" value="veg">
+      <label for="veg">Vegeterian</label><br>
+      <input type="checkbox" id="non-veg" name="non-veg" value="non-veg">
+      <label for="non-veg">Non-Vegeterian</label><br>
+      <input type="checkbox" id="savoury" name="savoury" value="savoury">
+      <label for="savoury">Savoury</label><br>
+      <input type="checkbox" id="sweet" name="sweet" value="sweet">
+      <label for="sweet">Sweet</label><br>
+      <button>Save</button>
+    </form>
+  </div>
+  <%- include('../partials/footer.ejs')%>
+</body>
+</html>
