@@ -41,6 +41,14 @@ nav li{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+figcaption{
+  background-color: black;
+  color: azure;
+  border-radius: 20px;
+  width: 350px;
+  margin-left:30px;
+  margin-top: 0;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -52,7 +60,7 @@ nav li{
   text-align: center;
   font-size: 30px;
 }
- img{
+.grid-container img {
    height: 300px;
    width: 350px;
    border-radius:20px ;
