@@ -12,7 +12,7 @@ import {
   } from "react-router-dom";
 function App(){
     const [position, setposition] = useState([0,0,0])
-    const [cityattr, setcityattr] = useState({})
+    const [imageurl, setimageurl] = useState({})
     const [locattr, setlocattr] = useState({})
     const [nearbyrest, setnearbyrest]= useState([])
     useEffect(() => {
@@ -48,22 +48,15 @@ function App(){
 
         },[])
 
-        
-
-    
-    
-
-
-
     
         return (
     <Router>
         <Switch>
             <Route exact path="/react">
-                <Gmap pos={position} nearby={nearbyrest} />
+                <Gmap pos={position} nearby={nearbyrest} sethotel={setlocattr} />
             </Route>
-            <Route path="/places">
-                <Places />
+            <Route path="/places" >
+                <Places hotel={locattr} />
             </Route>
         </Switch>
     </Router>

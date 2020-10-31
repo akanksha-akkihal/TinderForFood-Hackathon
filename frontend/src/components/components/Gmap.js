@@ -21,6 +21,7 @@ export class MapContainer extends Component {
     this.setState({
       selectedrest:e.name
     })   
+    this.props.sethotel(e.name)
 }  
     render() {
         const [lat,lng,status] = this.props.pos
