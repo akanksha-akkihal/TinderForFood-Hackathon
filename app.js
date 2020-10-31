@@ -23,3 +23,6 @@ app.get('/bill',(req,res)=>{
   res.render('billsplit');
 })
 
+app.get('/react/',(req,res)=>[
+  res.render('search')
+])
