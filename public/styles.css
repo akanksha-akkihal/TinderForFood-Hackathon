@@ -41,6 +41,14 @@ nav li{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+figcaption{
+  background-color: black;
+  color: azure;
+  border-radius: 20px;
+  width: 350px;
+  margin-left:30px;
+  margin-top: 0;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -52,7 +60,7 @@ nav li{
   text-align: center;
   font-size: 30px;
 }
- img{
+.grid-container img {
    height: 300px;
    width: 350px;
    border-radius:20px ;
@@ -78,4 +86,35 @@ form{
   color:white;
   padding:6px;
   border:0;
+}
+
+.contacts {
+  height: 100%;
+  width: 500px;
+  position: fixed;
+  z-index: 1;
+  top: 200px;
+  left: 50px;
+  background-color:white;
+  overflow-x: hidden;
+  /*padding-top: 20px;*/
+  border-color: black;
+}
+
+.contacts h2 {
+  border-color: black;
+  border-style: solid;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  margin:30px;
+}
+
+.contacts h2:hover{
+  background-color:crimson;
+}
+
+.conv {
+  margin-left: 500px;
+  text-align: center;
 }
